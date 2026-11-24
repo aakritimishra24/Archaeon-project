@@ -1,0 +1,8 @@
+{
+  "name": "ARCHAEON AI",
+  "description": "Multimodal archaeological intelligence and historical script restoration platform for epigraphic analysis, damage segmentation, restoration hypotheses, and knowledge graph exploration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

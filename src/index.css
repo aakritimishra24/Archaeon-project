@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@import "@xyflow/react/dist/style.css";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-obsidian: #151A18;
+  --color-obsidian-soft: #1C2420;
+  --color-panel: #232C27;
+  --color-olive: #29332E;
+  --color-gold: #C9A66B;
+  --color-gold-antique: #AD8952;
+  --color-ivory: #F0E8D8;
+  --color-muted: #A9ADA3;
+  --color-jade: #456B58;
+  --color-terracotta: #A85D48;
+  --color-border-subtle: #39443D;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #151A18;
+    color: #F0E8D8;
+    color-scheme: dark;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+
+  /* Optical compensation for light text on dark obsidian surfaces */
+  body {
+    letter-spacing: 0.01em;
+  }
+
+  /* Custom quiet archival scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #151A18;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #39443D;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AD8952;
+  }
+}
+
+/* React Flow archaeological dark theme alignment */
+.react-flow__controls {
+  background-color: #1C2420 !important;
+  border: 1px solid #39443D !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+  overflow: hidden;
+}
+
+.react-flow__controls-button {
+  background-color: #1C2420 !important;
+  border-bottom: 1px solid #39443D !important;
+  color: #F0E8D8 !important;
+  fill: #F0E8D8 !important;
+}
+
+.react-flow__controls-button:hover {
+  background-color: #29332E !important;
+  color: #C9A66B !important;
+  fill: #C9A66B !important;
+}
+
+.react-flow__minimap {
+  background-color: #1C2420 !important;
+  border: 1px solid #39443D !important;
+  border-radius: 8px !important;
+}
+
+.react-flow__attribution {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
