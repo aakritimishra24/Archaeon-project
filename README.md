@@ -1,7 +1,7 @@
-Archaeon AI
-Multimodal Archaeological Intelligence & Ancient Script Reconstruction
+# 🏛️ Archaeon AI
+### Multimodal Archaeological Intelligence & Ancient Script Reconstruction
 
- 1. Introduction
+## 1. Introduction
 
 Archaeon AI is an Artificial Intelligence-based project focused on the reconstruction, restoration, and interpretation of ancient scripts and historical inscriptions. It explores the application of modern AI techniques to address challenges associated with damaged, incomplete, and partially illegible historical texts.
 
@@ -13,7 +13,7 @@ Archaeon AI explores how Artificial Intelligence and multimodal intelligence can
 
 The broader vision of the project is to establish a connection between archaeological research and computational intelligence, making the preservation and interpretation of historical linguistic heritage more accessible.
 
- 2. Problem Statement
+## 2. Problem Statement
 
 Historical scripts and ancient inscriptions frequently suffer from physical deterioration, fading, erosion, incomplete characters, and missing portions of text. These challenges create significant difficulties in accurately identifying and interpreting historical writing systems.
 
